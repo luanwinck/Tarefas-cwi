@@ -1,5 +1,7 @@
-package Armas;
+package Testes;
 
+import Armas.Calibre12;
+import Armas.TresOitao;
 import Inventario.Maleta;
 import org.junit.jupiter.api.Test;
 
@@ -16,12 +18,12 @@ class ItemDaMaletaTest {
         maleta.adicionarItemNaMaleta(tresOitao);
         maleta.adicionarItemNaMaleta(tresOitao);
         maleta.adicionarItemNaMaleta(calibre12);
+        
 
-        Calibre12 calibre12NaMaleta =
-                (Calibre12) maleta.getListaDeItensDaMaleta().get(2);
+        TresOitao tresOitaoNaMaleta =
+                (TresOitao) maleta.getListaDeItensDaMaleta().get(1);
 
-        assertEquals(calibre12NaMaleta, calibre12);
+        assertEquals(tresOitaoNaMaleta, tresOitao);
     }
-
 
 }

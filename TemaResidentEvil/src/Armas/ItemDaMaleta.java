@@ -20,12 +20,20 @@ public class ItemDaMaleta {
         this.peso = peso;
         this.espacoOcupadoNaMaleta = new int[larguraOcupada][alturaOcupada];
         this.tamanhoOcupado = larguraOcupada * alturaOcupada;
+        this.alturaOcupada = alturaOcupada;
+        this.larguraOcupada = larguraOcupada;
 
     }
+
+    public int getLarguraOcupada() { return larguraOcupada; }
+
+    public int getAlturaOcupada() { return alturaOcupada; }
 
     public int getTamanhoOcupado(){
         return tamanhoOcupado;
     }
+
+    public double getPeso(){ return peso; }
 
     public void virarItem(){
         int aux = larguraOcupada;
