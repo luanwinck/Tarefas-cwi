@@ -13,8 +13,6 @@ public class ItemDaMaleta {
     private Maleta MaletaAQuePerntece;
 
 
-
-
     public ItemDaMaleta(double peso, int larguraOcupada, int alturaOcupada) {
 
         this.peso = peso;
@@ -35,20 +33,15 @@ public class ItemDaMaleta {
 
     public double getPeso(){ return peso; }
 
-    public void virarItem(){
-        int aux = larguraOcupada;
-        larguraOcupada = alturaOcupada;
-        alturaOcupada = aux;
-    }
-
-
-
-
     public void vincularAMaleta(Maleta maleta) {
         this.MaletaAQuePerntece = maleta;
     }
 
     public Maleta getMaletaDeItensAQuePertence() {
         return MaletaAQuePerntece;
+    }
+
+    public String getReferencia(){
+        return " ";
     }
 }

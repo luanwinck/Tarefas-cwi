@@ -12,26 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItemDaMaletaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Testes/ItemDaMaletaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maleta.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Maleta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inventario/Maleta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="82" column="65" lean-forward="true" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -39,8 +24,8 @@
       <file leaf-file-name="MaletaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Testes/MaletaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="363">
+              <caret line="270" column="1" lean-forward="true" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +33,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calibre12.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Armas/Calibre12.java">
+      <file leaf-file-name="PlantasTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Testes/PlantasTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="221">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,26 +48,70 @@
       <file leaf-file-name="MunicaoTresOitao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Armas/MunicaoTresOitao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemDaMaleta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Armas/ItemDaMaleta.java">
+      <file leaf-file-name="Plantas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Armas/Plantas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arma.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Armas/Arma.java">
+      <file leaf-file-name="PlantaVerde.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Armas/PlantaVerde.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlantaVermelha.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Armas/PlantaVermelha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TresOitao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Armas/TresOitao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MunicaoCalibre12.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Armas/MunicaoCalibre12.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Municao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Armas/Municao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -89,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,19 +130,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Armas/ItemDaMaletaTest.java" />
-        <option value="$PROJECT_DIR$/src/Armas/Municao.java" />
-        <option value="$PROJECT_DIR$/src/Armas/MunicaoCalibre12.java" />
-        <option value="$PROJECT_DIR$/src/Armas/MunicaoTresOitao.java" />
-        <option value="$PROJECT_DIR$/src/Armas/TresOitao.java" />
-        <option value="$PROJECT_DIR$/src/Armas/MisselDeBazuca.java" />
-        <option value="$PROJECT_DIR$/src/Armas/Bazuca.java" />
         <option value="$PROJECT_DIR$/src/Inventario/MaletaTest.java" />
+        <option value="$PROJECT_DIR$/src/Armas/PlantaVerde.java" />
+        <option value="$PROJECT_DIR$/src/Armas/PlantaVermelha.java" />
+        <option value="$PROJECT_DIR$/src/Armas/PlantasTest.java" />
+        <option value="$PROJECT_DIR$/src/Armas/Plantas.java" />
+        <option value="$PROJECT_DIR$/src/Armas/FusaoVerdeVermelho.java" />
+        <option value="$PROJECT_DIR$/src/Armas/FusaoVerdeVerde.java" />
+        <option value="$PROJECT_DIR$/src/Armas/FusaoVermelhoVermlho.java" />
+        <option value="$PROJECT_DIR$/src/Armas/FusaoVermelhoVermelho.java" />
+        <option value="$PROJECT_DIR$/src/Testes/PlantasTest.java" />
         <option value="$PROJECT_DIR$/src/Testes/ItemDaMaletaTest.java" />
-        <option value="$PROJECT_DIR$/src/Armas/Arma.java" />
-        <option value="$PROJECT_DIR$/src/Armas/ItemDaMaleta.java" />
-        <option value="$PROJECT_DIR$/src/Armas/Calibre12.java" />
         <option value="$PROJECT_DIR$/src/Testes/MaletaTest.java" />
         <option value="$PROJECT_DIR$/src/Inventario/Maleta.java" />
+        <option value="$PROJECT_DIR$/src/Armas/TresOitao.java" />
+        <option value="$PROJECT_DIR$/src/Armas/MunicaoTresOitao.java" />
+        <option value="$PROJECT_DIR$/src/Armas/MunicaoCalibre12.java" />
+        <option value="$PROJECT_DIR$/src/Armas/Municao.java" />
+        <option value="$PROJECT_DIR$/src/Armas/MisselDeBazuca.java" />
+        <option value="$PROJECT_DIR$/src/Armas/ItemDaMaleta.java" />
+        <option value="$PROJECT_DIR$/src/Armas/Calibre12.java" />
+        <option value="$PROJECT_DIR$/src/Armas/Bazuca.java" />
+        <option value="$PROJECT_DIR$/src/Armas/Arma.java" />
       </list>
     </option>
   </component>
@@ -124,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,6 +200,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,8 +215,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Inventario" />
       <recent name="Armas" />
+      <recent name="Inventario" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -193,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaletaTest.TestarItemMaisPesado">
+  <component name="RunManager" selected="JUnit.MaletaTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -220,7 +261,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaletaTest.TestarItemMaisPesad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoFoda" />
       <extension name="coverage">
         <pattern>
@@ -232,7 +273,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Testes" />
       <option name="MAIN_CLASS_NAME" value="Testes.MaletaTest" />
-      <option name="METHOD_NAME" value="TestarItemMaisPesad" />
+      <option name="METHOD_NAME" value="TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -243,7 +284,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaletaTest.TestarItemMaisPesado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante54" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoFoda" />
       <extension name="coverage">
         <pattern>
@@ -255,7 +296,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Testes" />
       <option name="MAIN_CLASS_NAME" value="Testes.MaletaTest" />
-      <option name="METHOD_NAME" value="TestarItemMaisPesado" />
+      <option name="METHOD_NAME" value="TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante54" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -266,7 +307,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaletaTest.TestarItemQue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaletaTest.TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoFoda" />
       <extension name="coverage">
         <pattern>
@@ -278,7 +319,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Testes" />
       <option name="MAIN_CLASS_NAME" value="Testes.MaletaTest" />
-      <option name="METHOD_NAME" value="TestarItemQue" />
+      <option name="METHOD_NAME" value="TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -289,7 +330,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaletaTest.TestarPesoTotalCarregado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlantasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetoFoda" />
       <extension name="coverage">
         <pattern>
@@ -300,9 +341,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.MaletaTest" />
-      <option name="METHOD_NAME" value="TestarPesoTotalCarregado" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Testes.PlantasTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -351,19 +392,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MaletaTest.TestarItemMaisPesado" />
-      <item itemvalue="JUnit.MaletaTest.TestarPesoTotalCarregado" />
-      <item itemvalue="JUnit.MaletaTest.TestarItemQue" />
+      <item itemvalue="JUnit.MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante" />
+      <item itemvalue="JUnit.MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante54" />
       <item itemvalue="JUnit.MaletaTest" />
-      <item itemvalue="JUnit.MaletaTest.TestarItemMaisPesad" />
+      <item itemvalue="JUnit.MaletaTest.TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18" />
+      <item itemvalue="JUnit.PlantasTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MaletaTest.TestarItemMaisPesado" />
-        <item itemvalue="JUnit.MaletaTest.TestarItemMaisPesad" />
         <item itemvalue="JUnit.MaletaTest" />
-        <item itemvalue="JUnit.MaletaTest.TestarItemQue" />
-        <item itemvalue="JUnit.MaletaTest.TestarPesoTotalCarregado" />
+        <item itemvalue="JUnit.PlantasTest" />
+        <item itemvalue="JUnit.MaletaTest.TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18" />
+        <item itemvalue="JUnit.MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante54" />
+        <item itemvalue="JUnit.MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante" />
       </list>
     </recent_temporary>
   </component>
@@ -381,40 +422,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaletaTest_TestarItemMaisPesad - 2018.04.14 at 21h 34m 37s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesad" configurationId="JUnit" />
+    <history-entry file="MaletaTest_TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoO3OitaoERetornandoTamanhoRestante - 2018.04.15 at 18h 10m 27s.xml">
+      <configuration name="MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoO3OitaoERetornandoTamanhoRestante" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesad - 2018.04.14 at 21h 35m 01s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesad" configurationId="JUnit" />
+    <history-entry file="MaletaTest_TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoO3OitaoERetornandoTamanhoRestante - 2018.04.15 at 18h 10m 38s.xml">
+      <configuration name="MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoO3OitaoERetornandoTamanhoRestante" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesad - 2018.04.14 at 21h 35m 32s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesad" configurationId="JUnit" />
+    <history-entry file="MaletaTest_TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante - 2018.04.15 at 18h 11m 27s.xml">
+      <configuration name="MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesad - 2018.04.14 at 21h 35m 50s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesad" configurationId="JUnit" />
+    <history-entry file="MaletaTest_TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante54 - 2018.04.15 at 18h 11m 44s.xml">
+      <configuration name="MaletaTest.TestarColocandoUmTresOitaUmCalibreEUmaBazucaERemovendoOCalibre12ERetornandoTamanhoRestante54" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesad - 2018.04.14 at 21h 37m 08s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesad" configurationId="JUnit" />
+    <history-entry file="MaletaTest - 2018.04.15 at 18h 12m 20s.xml">
+      <configuration name="MaletaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesad - 2018.04.14 at 21h 37m 26s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesad" configurationId="JUnit" />
+    <history-entry file="MaletaTest_TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18 - 2018.04.15 at 18h 14m 05s.xml">
+      <configuration name="MaletaTest.TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesad - 2018.04.14 at 21h 38m 05s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesad" configurationId="JUnit" />
+    <history-entry file="MaletaTest_TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18 - 2018.04.15 at 18h 14m 39s.xml">
+      <configuration name="MaletaTest.TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesado - 2018.04.14 at 21h 38m 55s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesado" configurationId="JUnit" />
+    <history-entry file="MaletaTest_TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18 - 2018.04.15 at 18h 14m 49s.xml">
+      <configuration name="MaletaTest.TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesado - 2018.04.14 at 21h 39m 34s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesado" configurationId="JUnit" />
+    <history-entry file="MaletaTest - 2018.04.15 at 18h 15m 39s.xml">
+      <configuration name="MaletaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaletaTest_TestarItemMaisPesado - 2018.04.14 at 21h 40m 02s.xml">
-      <configuration name="MaletaTest.TestarItemMaisPesado" configurationId="JUnit" />
+    <history-entry file="PlantasTest - 2018.04.15 at 18h 15m 48s.xml">
+      <configuration name="PlantasTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -424,18 +464,18 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2209857" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2209857" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18814056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18814056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -443,112 +483,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2209857" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3290938" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Testes/MaletaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testes/ItemDaMaletaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testes/MaletaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/Calibre12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/MunicaoTresOitao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/ItemDaMaleta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/Arma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inventario/Maleta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Testes/ItemDaMaletaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -730,41 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/Municao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/MunicaoCalibre12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/TresOitao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/MisselDeBazuca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/Bazuca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/jdk-10_x64/lib/src.zip!/java.base/java/util/stream/AbstractPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -828,58 +737,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/MunicaoTresOitao.java">
+    <entry file="file://$PROJECT_DIR$/src/Armas/FusaoVermelhoVermlho.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/Arma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/ItemDaMaleta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Armas/Calibre12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testes/ItemDaMaletaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testes/MaletaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Armas/Arma.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/Bazuca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/Calibre12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/FusaoVerdeVerde.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/FusaoVerdeVermelho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/FusaoVermelhoVermelho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/ItemDaMaleta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/MisselDeBazuca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/Municao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/MunicaoCalibre12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/MunicaoTresOitao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/Plantas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/PlantaVerde.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/PlantaVermelha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Armas/TresOitao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inventario/Maleta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="82" column="65" lean-forward="true" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
+        <state relative-caret-position="17">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testes/MaletaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="270" column="1" lean-forward="true" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testes/PlantasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

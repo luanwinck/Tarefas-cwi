@@ -1,88 +1,21 @@
 package Inventario;
 
-import Armas.ItemDaMaleta;
-
-import java.util.LinkedList;
-import java.util.List;
+import Armas.*;
 
 public class Maleta {
 
-    private List<ItemDaMaleta> listaDeItensDaMaleta;
     private ItemDaMaleta[][] espacoDaMaleta;
     private int espacosDisponivel;
     private boolean itemCabeNaMaleta;
     private double pesoTotalDosItensDaMaleta;
     private ItemDaMaleta itemQueOcupaMaisEspaco;
+    private double pesoItemQueOcupaMaisEspaco;
 
     public Maleta() {
-        this.listaDeItensDaMaleta = new LinkedList<>();
-        this.pesoTotalDosItensDaMaleta = pesoTotalDosItensDaMaleta;
         this.espacoDaMaleta = new ItemDaMaleta[10][10];
         this.itemCabeNaMaleta = true;
     }
 
-    public void adicionarItemNaMaletaxx(ItemDaMaleta itemDaMaleta) {
-        int controle = 1;
-        int contadorDePosicaoLivre = 0;
-        for (int i = 0; i < espacoDaMaleta.length; i++) {
-            for (int j = 0; j < espacoDaMaleta.length; j++) {
-                if (espacoDaMaleta[i][j] == null && controle == 1) {
-                    int auxI = i;
-                    int auxJ = j;
-                    for (int x = i; x < itemDaMaleta.getAlturaOcupada() + i; x++) {
-                        for (int y = j; y < itemDaMaleta.getLarguraOcupada() + j; y++) {
-                            contadorDePosicaoLivre++;
-                        }
-                    }
-                    if (contadorDePosicaoLivre == itemDaMaleta.getTamanhoOcupado()) {
-                        for (int l = auxI; l < itemDaMaleta.getAlturaOcupada() + auxI; l++) {
-                            for (int m = auxJ; m < itemDaMaleta.getLarguraOcupada() + auxJ; m++) {
-                                espacoDaMaleta[l][m] = itemDaMaleta;
-                                itemDaMaleta.vincularAMaleta(this);
-                            }
-                        }
-                        controle = 0;
-                    }
-
-                }
-            }
-        }
-
-        this.pesoTotalDosItensDaMaleta += itemDaMaleta.getPeso();
-        this.itemQueOcupaMaisEspaco = itemDaMaleta;
-    }
-
-    public void adicionarItemNaMaletaVirado(ItemDaMaleta itemDaMaleta) {
-        int controle = 1;
-        int contadorDePosicaoLivre = 0;
-
-        for (int i = 0; i < espacoDaMaleta.length; i++) {
-            for (int j = 0; j < espacoDaMaleta.length; j++) {
-                if (espacoDaMaleta[i][j] == null && controle == 1) {
-                    int auxI = i;
-                    int auxJ = j;
-                    for (int x = i; x < itemDaMaleta.getLarguraOcupada() + i; x++) {
-                        for (int y = j; y < itemDaMaleta.getAlturaOcupada() + j; y++) {
-                            contadorDePosicaoLivre++;
-                        }
-                    }
-                    if (contadorDePosicaoLivre == itemDaMaleta.getTamanhoOcupado()) {
-                        for (int l = auxI; l < itemDaMaleta.getLarguraOcupada() + auxI; l++) {
-                            for (int m = auxJ; m < itemDaMaleta.getAlturaOcupada() + auxJ; m++) {
-                                espacoDaMaleta[l][m] = itemDaMaleta;
-                                itemDaMaleta.vincularAMaleta(this);
-                            }
-                        }
-                        controle = 0;
-                    }
-
-                }
-            }
-        }
-
-        this.pesoTotalDosItensDaMaleta += itemDaMaleta.getPeso();
-        this.itemQueOcupaMaisEspaco = itemDaMaleta;
-    }
 
     public void adicionarItemNaMaleta(ItemDaMaleta itemDaMaleta) {
         int auxI = 0;
@@ -110,7 +43,45 @@ public class Maleta {
                 itemDaMaleta.vincularAMaleta(this);
             }
         }
+        this.pesoTotalDosItensDaMaleta += itemDaMaleta.getPeso();
+        if (itemDaMaleta.getPeso() > pesoItemQueOcupaMaisEspaco) {
+            this.itemQueOcupaMaisEspaco = itemDaMaleta;
+            this.pesoItemQueOcupaMaisEspaco = itemDaMaleta.getPeso();
+        }
 
+    }
+
+    public void adicionarItemNaMaletaVirado(ItemDaMaleta itemDaMaleta) {
+        int auxI = 0;
+        int auxJ = 0;
+        boolean controle = false;
+        for (int i = 0; i < espacoDaMaleta.length; i++) {
+            for (int j = 0; j < espacoDaMaleta.length; j++) {
+                if (espacoDaMaleta[i][j] == null && !controle) {
+                    if (espacoDaMaleta.length-j >= itemDaMaleta.getAlturaOcupada()){
+                        if (espacoDaMaleta.length-i >= itemDaMaleta.getLarguraOcupada()){
+                            auxI = i;
+                            auxJ = j;
+                            controle = true;
+                        }
+                    }
+                }
+            }
+        }
+        if (!controle){
+            this.itemCabeNaMaleta = false;
+        }
+        for (int i = auxI; i < itemDaMaleta.getLarguraOcupada()+auxI; i++){
+            for (int j = auxJ; j < itemDaMaleta.getAlturaOcupada()+auxJ; j++){
+                espacoDaMaleta[i][j] = itemDaMaleta;
+                itemDaMaleta.vincularAMaleta(this);
+            }
+        }
+        this.pesoTotalDosItensDaMaleta += itemDaMaleta.getPeso();
+        if (itemDaMaleta.getPeso() > pesoItemQueOcupaMaisEspaco) {
+            this.itemQueOcupaMaisEspaco = itemDaMaleta;
+            this.pesoItemQueOcupaMaisEspaco = itemDaMaleta.getPeso();
+        }
 
     }
 
@@ -127,10 +98,43 @@ public class Maleta {
         }
         this.pesoTotalDosItensDaMaleta -= itemDaMaleta.getPeso();
     }
-    public int espacosDisponiveisNaMaleta(){
+
+    public void fundirPlantas(Plantas plantaA, Plantas plantaB){
+        if (plantaA.getReferencia() == plantaB.getReferencia()){
+            if (plantaA.getReferencia() == "Planta verde"){
+                FusaoVerdeVerde fusaoVerdeVerde = new FusaoVerdeVerde();
+
+                removerItem(plantaA);
+                removerItem(plantaB);
+
+                adicionarItemNaMaleta(fusaoVerdeVerde);
+
+            }
+            if (plantaA.getReferencia() == "Planta vermelha"){
+                FusaoVermelhoVermelho fusaoVermelhoVermelho = new FusaoVermelhoVermelho();
+
+                removerItem(plantaA);
+                removerItem(plantaB);
+
+                adicionarItemNaMaleta(fusaoVermelhoVermelho);
+            }
+        }
+        else{
+            FusaoVerdeVermelho fusaoVerdeVermelho = new FusaoVerdeVermelho();
+
+            removerItem(plantaA);
+            removerItem(plantaB);
+
+            adicionarItemNaMaleta(fusaoVerdeVermelho);
+        }
+    }
+
+
+
+    public int getEspacosDisponiveisNaMaleta(){
         for (int i = 0; i < espacoDaMaleta.length; i++) {
             for (int j = 0; j < espacoDaMaleta.length; j++) {
-                if (espacoDaMaleta[i][j] != null){
+                if (espacoDaMaleta[i][j] == null){
                     this.espacosDisponivel ++;
                 }
             }
@@ -144,10 +148,5 @@ public class Maleta {
     public ItemDaMaleta getItemQueOcupaMaisEspaco(){ return itemQueOcupaMaisEspaco; }
 
     public boolean getItemCabeNaMaleta(){ return itemCabeNaMaleta; }
-
-    public List<ItemDaMaleta> getListaDeItensDaMaleta() {return listaDeItensDaMaleta; }
-
-
-
 
 }

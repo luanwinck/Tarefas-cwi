@@ -1,10 +1,8 @@
 package Armas;
 
-import Inventario.Maleta;
-
 public class MisselDeBazuca extends Municao {
-    public MisselDeBazuca(double peso, int quantidadeDeMunicaoRestante) {
+    public MisselDeBazuca() {
 
-        super(3, 1,8,2);
+        super(3, 1,2,8);
     }
 }

@@ -1,11 +1,11 @@
 package Armas;
 
-import Inventario.Maleta;
-
 public class Bazuca extends Arma {
-    public Bazuca(double peso, int quantidadeDeMunicaoQueCabe, int quantidadeDeTirosPorVez) {
-        super(15, 1, 1,10,4);
+    public Bazuca() {
+        super(15, 1, 1,4,10);
     }
 
-
+    public void atirar(Municao municao){
+        this.getMaletaDeItensAQuePertence().removerItem(municao);
+    }
 }

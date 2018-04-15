@@ -1,10 +1,12 @@
 package Armas;
 
-import Inventario.Maleta;
-
 public class MunicaoCalibre12 extends Municao {
-    public MunicaoCalibre12(double peso, int quantidadeDeMunicaoRestante) {
+    public MunicaoCalibre12() {
+        super(0.4, 8,2,1);
+    }
 
-        super(1, 8,2,1);
+    @Override
+    public void removerMunicaoDaMaleta(){
+        this.getMaletaDeItensAQuePertence().removerItem(this);
     }
 }

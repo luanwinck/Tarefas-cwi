@@ -1,6 +1,5 @@
 package Armas;
 
-import Inventario.Maleta;
 
 public class TresOitao extends Arma {
     public TresOitao() {
