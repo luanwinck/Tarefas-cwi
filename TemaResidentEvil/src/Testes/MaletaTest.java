@@ -35,7 +35,6 @@ class MaletaTest {
         int resultadoEsperado = 44;
 
         assertEquals(resultadoObtido,resultadoEsperado);
-
     }
 
     @Test
@@ -54,6 +53,7 @@ class MaletaTest {
         assertEquals(resultadoObtido,resultadoEsperado);
     }
 
+
     @Test
     public void TestarColocandoUmaBazucaEUmMisselEUmCalibre12NaMaletaERetornandoQueNaoCabeNaMaleta(){
         Bazuca bazuca = new Bazuca();
@@ -69,7 +69,6 @@ class MaletaTest {
         boolean resultadoEsperado = false;
 
         assertEquals(resultadoObtido,resultadoEsperado);
-
     }
 
     @Test
@@ -87,7 +86,6 @@ class MaletaTest {
         boolean resultadoEsperado = true;
 
         assertEquals(resultadoObtido,resultadoEsperado);
-
     }
 
     @Test
@@ -249,7 +247,7 @@ class MaletaTest {
     }
 
     @Test
-    public void TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando18(){
+    public void TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoRetornando19Virgula2(){
         Bazuca bazuca = new Bazuca();
         MisselDeBazuca misselDeBazuca = new MisselDeBazuca();
         TresOitao tresOitao = new TresOitao();
@@ -263,6 +261,26 @@ class MaletaTest {
 
         double resultadoObtido = maleta.getPesoTotalDosItensDaMaleta();
         double resultadoEsperado = 19.4;
+
+        assertEquals(resultadoObtido,resultadoEsperado);
+    }
+
+    @Test
+    public void TestarPesoTotalCarregadoPorUmaBazucaEUmMisselUmTresOitaoEMunicaoDeTresOitaoERetirandoOTresOitaoRetornand18Virgula2(){
+        Bazuca bazuca = new Bazuca();
+        MisselDeBazuca misselDeBazuca = new MisselDeBazuca();
+        TresOitao tresOitao = new TresOitao();
+        MunicaoTresOitao municaoTresOitao = new MunicaoTresOitao();
+        Maleta maleta = new Maleta();
+
+        maleta.adicionarItemNaMaleta(bazuca);
+        maleta.adicionarItemNaMaleta(misselDeBazuca);
+        maleta.adicionarItemNaMaleta(tresOitao);
+        maleta.adicionarItemNaMaleta(municaoTresOitao);
+        maleta.removerItem(tresOitao);
+
+        double resultadoObtido = maleta.getPesoTotalDosItensDaMaleta();
+        double resultadoEsperado = 18.2;
 
         assertEquals(resultadoObtido,resultadoEsperado);
     }
