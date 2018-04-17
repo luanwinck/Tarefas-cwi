@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AlvoTest {
     @Test
-    public void testarAtaqueDeGrupoAoAlvo(){
+    public void testarAtaqueDeGrupoAoAlvoEEleSendoDestruido(){
         Alvo alvo = new Alvo(100);
         Grupo grupo = new Grupo();
         Orc orc = new Orc(10,"orc",true);

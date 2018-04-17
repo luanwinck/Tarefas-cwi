@@ -11,7 +11,113 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="AlvoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testes/AlvoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrupoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testes/GrupoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pesronagem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Personagens/Pesronagem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Personagens/Orc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grupo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Grupo/Grupo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#2236#2237#0" expanded="true" />
+                <element signature="e#2277#2278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PesronagemTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testes/PesronagemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Humano.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Personagens/Humano.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Personagens/Elfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaidBoss.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Alvos/RaidBoss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alvo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Alvos/Alvo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,19 +131,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Personagens/PesronagemTest.java" />
+        <option value="$PROJECT_DIR$/src/Grupo/GrupoTest.java" />
+        <option value="$PROJECT_DIR$/src/Alvos/AlvoTest.java" />
+        <option value="$PROJECT_DIR$/src/Alvos/RaidBoss.java" />
+        <option value="$PROJECT_DIR$/src/Testes/PesronagemTest.java" />
+        <option value="$PROJECT_DIR$/src/Grupo/ListaDePersonagens.java" />
+        <option value="$PROJECT_DIR$/src/Testes/GrupoTest.java" />
+        <option value="$PROJECT_DIR$/src/Grupo/Grupo.java" />
+        <option value="$PROJECT_DIR$/src/Testes/AlvoTest.java" />
+        <option value="$PROJECT_DIR$/src/Personagens/Pesronagem.java" />
+        <option value="$PROJECT_DIR$/src/Alvos/Alvo.java" />
         <option value="$PROJECT_DIR$/src/Personagens/Elfo.java" />
         <option value="$PROJECT_DIR$/src/Personagens/Humano.java" />
         <option value="$PROJECT_DIR$/src/Personagens/Orc.java" />
-        <option value="$PROJECT_DIR$/src/Testes/PesronagemTest.java" />
-        <option value="$PROJECT_DIR$/src/Grupo/GrupoTest.java" />
-        <option value="$PROJECT_DIR$/src/Alvos/AlvoTest.java" />
-        <option value="$PROJECT_DIR$/src/Grupo/ListaDePersonagens.java" />
-        <option value="$PROJECT_DIR$/src/Personagens/Pesronagem.java" />
-        <option value="$PROJECT_DIR$/src/Alvos/Alvo.java" />
-        <option value="$PROJECT_DIR$/src/Grupo/Grupo.java" />
-        <option value="$PROJECT_DIR$/src/Testes/GrupoTest.java" />
-        <option value="$PROJECT_DIR$/src/Alvos/RaidBoss.java" />
-        <option value="$PROJECT_DIR$/src/Testes/AlvoTest.java" />
       </list>
     </option>
   </component>
@@ -51,8 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,7 +197,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,9 +233,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AlvoTest.testarAtaqueDeGrupoAoRaidBossSendoDestruido">
+  <component name="RunManager" selected="JUnit.AlvoTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AlvoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medieval" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Testes" />
+      <option name="MAIN_CLASS_NAME" value="Testes.AlvoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="AlvoTest.testarAtaqueDeGrupoAoAlvo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Medieval" />
@@ -154,53 +283,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AlvoTest.testarAtaqueDeGrupoAoRaidBoss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Medieval" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.AlvoTest" />
-      <option name="METHOD_NAME" value="testarAtaqueDeGrupoAoRaidBoss" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AlvoTest.testarAtaqueDeGrupoAoRaidBossSendoDestruido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Medieval" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.AlvoTest" />
-      <option name="METHOD_NAME" value="testarAtaqueDeGrupoAoRaidBossSendoDestruido" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GrupoTest.TestarAtaqueDeGrupo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GrupoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Medieval" />
       <extension name="coverage">
         <pattern>
@@ -212,8 +295,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Testes" />
       <option name="MAIN_CLASS_NAME" value="Testes.GrupoTest" />
-      <option name="METHOD_NAME" value="TestarAtaqueDeGrupo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -223,7 +306,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GrupoTest.TestarAtaqueSomentePorHumanos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GrupoTest.TestarPoderAtaqueDoGrupo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Medieval" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +318,31 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Testes" />
       <option name="MAIN_CLASS_NAME" value="Testes.GrupoTest" />
-      <option name="METHOD_NAME" value="TestarAtaqueSomentePorHumanos" />
+      <option name="METHOD_NAME" value="TestarPoderAtaqueDoGrupo" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PesronagemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medieval" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Testes" />
+      <option name="MAIN_CLASS_NAME" value="Testes.PesronagemTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -285,19 +391,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.GrupoTest.TestarAtaqueSomentePorHumanos" />
-      <item itemvalue="JUnit.GrupoTest.TestarAtaqueDeGrupo" />
       <item itemvalue="JUnit.AlvoTest.testarAtaqueDeGrupoAoAlvo" />
-      <item itemvalue="JUnit.AlvoTest.testarAtaqueDeGrupoAoRaidBoss" />
-      <item itemvalue="JUnit.AlvoTest.testarAtaqueDeGrupoAoRaidBossSendoDestruido" />
+      <item itemvalue="JUnit.GrupoTest" />
+      <item itemvalue="JUnit.PesronagemTest" />
+      <item itemvalue="JUnit.GrupoTest.TestarPoderAtaqueDoGrupo" />
+      <item itemvalue="JUnit.AlvoTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AlvoTest.testarAtaqueDeGrupoAoRaidBossSendoDestruido" />
-        <item itemvalue="JUnit.AlvoTest.testarAtaqueDeGrupoAoRaidBoss" />
+        <item itemvalue="JUnit.AlvoTest" />
+        <item itemvalue="JUnit.GrupoTest" />
+        <item itemvalue="JUnit.PesronagemTest" />
+        <item itemvalue="JUnit.GrupoTest.TestarPoderAtaqueDoGrupo" />
         <item itemvalue="JUnit.AlvoTest.testarAtaqueDeGrupoAoAlvo" />
-        <item itemvalue="JUnit.GrupoTest.TestarAtaqueDeGrupo" />
-        <item itemvalue="JUnit.GrupoTest.TestarAtaqueSomentePorHumanos" />
       </list>
     </recent_temporary>
   </component>
@@ -315,35 +421,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GrupoTest_TestarAtaqueTotalComHumanos - 2018.04.16 at 20h 17m 36s.xml">
-      <configuration name="GrupoTest.TestarAtaqueTotalComHumanos" configurationId="JUnit" />
+    <history-entry file="PesronagemTest - 2018.04.16 at 20h 41m 28s.xml">
+      <configuration name="PesronagemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrupoTest_TestarAtaqueTotalComHumanos - 2018.04.16 at 20h 17m 55s.xml">
-      <configuration name="GrupoTest.TestarAtaqueTotalComHumanos" configurationId="JUnit" />
+    <history-entry file="GrupoTest_TestarPoderAtaqueDoGrupo - 2018.04.16 at 20h 42m 47s.xml">
+      <configuration name="GrupoTest.TestarPoderAtaqueDoGrupo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrupoTest_TestarAtaqueSomentePorHumanos - 2018.04.16 at 20h 18m 33s.xml">
-      <configuration name="GrupoTest.TestarAtaqueSomentePorHumanos" configurationId="JUnit" />
+    <history-entry file="GrupoTest_TestarPoderAtaqueDoGrupo - 2018.04.16 at 20h 43m 03s.xml">
+      <configuration name="GrupoTest.TestarPoderAtaqueDoGrupo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrupoTest_TestarAtaqueDeGrupo - 2018.04.16 at 20h 19m 11s.xml">
-      <configuration name="GrupoTest.TestarAtaqueDeGrupo" configurationId="JUnit" />
+    <history-entry file="GrupoTest - 2018.04.16 at 20h 47m 36s.xml">
+      <configuration name="GrupoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrupoTest_TestarAtaqueDeGrupo - 2018.04.16 at 20h 19m 25s.xml">
-      <configuration name="GrupoTest.TestarAtaqueDeGrupo" configurationId="JUnit" />
+    <history-entry file="GrupoTest - 2018.04.16 at 20h 48m 17s.xml">
+      <configuration name="GrupoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlvoTest_testarAtaqueDeGrupoAoAlvo - 2018.04.16 at 20h 19m 58s.xml">
-      <configuration name="AlvoTest.testarAtaqueDeGrupoAoAlvo" configurationId="JUnit" />
+    <history-entry file="AlvoTest - 2018.04.16 at 20h 48m 22s.xml">
+      <configuration name="AlvoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlvoTest_testarAtaqueDeGrupoAoRaidBoss - 2018.04.16 at 20h 22m 13s.xml">
-      <configuration name="AlvoTest.testarAtaqueDeGrupoAoRaidBoss" configurationId="JUnit" />
+    <history-entry file="GrupoTest - 2018.04.16 at 20h 52m 13s.xml">
+      <configuration name="GrupoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlvoTest_testarAtaqueDeGrupoAoRaidBoss - 2018.04.16 at 20h 24m 26s.xml">
-      <configuration name="AlvoTest.testarAtaqueDeGrupoAoRaidBoss" configurationId="JUnit" />
+    <history-entry file="PesronagemTest - 2018.04.16 at 20h 55m 22s.xml">
+      <configuration name="PesronagemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlvoTest_testarAtaqueDeGrupoAoRaidBoss - 2018.04.16 at 20h 25m 01s.xml">
-      <configuration name="AlvoTest.testarAtaqueDeGrupoAoRaidBoss" configurationId="JUnit" />
+    <history-entry file="GrupoTest - 2018.04.16 at 20h 55m 35s.xml">
+      <configuration name="GrupoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlvoTest_testarAtaqueDeGrupoAoRaidBossSendoDestruido - 2018.04.16 at 20h 25m 46s.xml">
-      <configuration name="AlvoTest.testarAtaqueDeGrupoAoRaidBossSendoDestruido" configurationId="JUnit" />
+    <history-entry file="AlvoTest - 2018.04.16 at 20h 56m 47s.xml">
+      <configuration name="AlvoTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -362,7 +468,8 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22986823" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22986823" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3290938" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -374,7 +481,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -404,6 +510,10 @@
             <element signature="imports" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -429,9 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -439,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,6 +564,10 @@
             <element signature="imports" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -495,31 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testes/PesronagemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Grupo/ListaDePersonagens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../exercicios_corrigidos/orientacao-a-objetos/Aula5/InventarioDePersonagem/src/Jogo/Ordenacao/EstrategiaDeOrdenacao.java" />
-    <entry file="file://$PROJECT_DIR$/src/Personagens/Orc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/jdk-10_x64/lib/src.zip!/java.base/java/util/Spliterators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -583,73 +667,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Testes/AlvoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Grupo/ListaDePersonagens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Personagens/Humano.java">
+    <entry file="file://$PROJECT_DIR$/src/Testes/AlvoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testes/GrupoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="121" column="1" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+        <state relative-caret-position="821">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Grupo/Grupo.java">
+    <entry file="file://$PROJECT_DIR$/src/Testes/PesronagemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="867">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Personagens/Pesronagem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personagens/Orc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Personagens/Humano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Personagens/Elfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grupo/Grupo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Alvos/RaidBoss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="289">
           <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Alvos/Alvo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>

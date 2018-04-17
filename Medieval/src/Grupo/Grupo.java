@@ -20,11 +20,6 @@ public class Grupo {
 
     public void adicionarPersonagemAoGrupo(Pesronagem  personagem){
         this.grupoDePersonagens.add(personagem);
-        //personagem.vincularAGrupoAQuePertence(this);
-        this.acrescentaAtaqueTotal(personagem.getPoderDeAtaque());
-        if (personagem instanceof Humano) {
-            this.ataqueDosHumanos += personagem.getPoderDeAtaque();
-        }
     }
 
     public void adicionarLstaDePersonagensAoGrupo(List lista){
@@ -40,11 +35,16 @@ public class Grupo {
     }
 
     public int ataqueSomentePorHumanos(){
+        this.ataqueDosHumanos = 0;
+        for (Pesronagem personagemNoGrupo : this.grupoDePersonagens){
+            if (personagemNoGrupo instanceof Humano) {
+                this.ataqueDosHumanos += personagemNoGrupo.getPoderDeAtaque();
+            }
+        }
         return this.ataqueDosHumanos;
     }
 
     public List<Pesronagem> ataqueOrdenado() {
-        // converte a lista em array
         Pesronagem[] itensOrdenados = new Pesronagem[grupoDePersonagens.size()];
         itensOrdenados = grupoDePersonagens.toArray(itensOrdenados);
 
@@ -64,25 +64,10 @@ public class Grupo {
 
         return Arrays.asList(itensOrdenados);
     }
-
+    protected boolean itemAMaiorQueB(Pesronagem itemA, Pesronagem itemB) {
+        return itemA.getNome().compareToIgnoreCase(itemB.getNome()) > 0;
+    }
     public List<Pesronagem> retornaLista(){
         return grupoDePersonagens;
     }
-
-
-    protected boolean itemAMaiorQueB(Pesronagem itemA, Pesronagem itemB) {
-        return itemA.getNome()
-                .compareToIgnoreCase(itemB.getNome())
-                > 0;
-    }
-
-
-    public int getAtaqueTotal(){
-        return ataqueTotal;
-    }
-
-    public void acrescentaAtaqueTotal(int acrescentar){
-        this.ataqueTotal += acrescentar;
-    }
-
 }

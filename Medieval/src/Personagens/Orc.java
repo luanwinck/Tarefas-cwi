@@ -1,7 +1,6 @@
 package Personagens;
 
 public class Orc extends Pesronagem {
-
     private boolean possuiGarra;
 
     public Orc(int poderDeAtaque, String nome, boolean possuiGarra) {

@@ -1,7 +1,6 @@
 package Alvos;
 
 public class Alvo {
-
     private int pontosDeVida;
 
     public Alvo(int pontosDeVida) {

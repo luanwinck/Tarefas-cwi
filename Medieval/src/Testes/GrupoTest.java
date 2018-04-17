@@ -1,7 +1,6 @@
 package Testes;
 
 import Grupo.Grupo;
-import Grupo.ListaDePersonagens;
 import Personagens.Elfo;
 import Personagens.Humano;
 import Personagens.Orc;
@@ -14,16 +13,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GrupoTest {
     @Test
-    public void TestarAtaqueDeGrupo(){
+    public void TestarPoderAtaqueDoGrupo(){
         Grupo grupo = new Grupo();
         Elfo elfo = new Elfo(30,"elfo",10);
         Orc orc = new Orc(20,"orc",true);
+        Humano humano = new Humano(20,"humano",true);
 
         grupo.adicionarPersonagemAoGrupo(elfo);
         grupo.adicionarPersonagemAoGrupo(orc);
+        grupo.adicionarPersonagemAoGrupo(humano);
 
         int ResultadoObtido = grupo.ataqueSimples();
-        int ResultadoEspeado = 140;
+        int ResultadoEspeado = 180;
 
         assertEquals(ResultadoEspeado, ResultadoObtido);
 
@@ -73,7 +74,6 @@ class GrupoTest {
     public void TestarAdicionandoUmaListaAoGrupo(){
         Grupo grupo = new Grupo();
         Grupo grupo1 = new Grupo();
-        ListaDePersonagens listaDePersonagens = new ListaDePersonagens();
         Elfo elfo = new Elfo(10,"elfo",10);
         Orc orc = new Orc(10,"orc",true);
         Humano humano = new Humano(10,"humano",true);
@@ -93,7 +93,7 @@ class GrupoTest {
     }
 
     @Test
-    public void TestarOrdenacao(){
+    public void TestarAtauqeOrdenado(){
         Grupo grupo = new Grupo();
         Grupo grupo1 = new Grupo();
         Elfo elfo = new Elfo(10,"elfo",10);
