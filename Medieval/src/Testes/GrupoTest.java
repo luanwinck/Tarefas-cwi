@@ -7,6 +7,7 @@ import Personagens.Orc;
 import Personagens.Pesronagem;
 import org.junit.jupiter.api.Test;
 
+import java.util.LinkedList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -93,7 +94,7 @@ class GrupoTest {
     }
 
     @Test
-    public void TestarAtauqeOrdenado(){
+    public void TestarAtaqueOrdenado(){
         Grupo grupo = new Grupo();
         Grupo grupo1 = new Grupo();
         Elfo elfo = new Elfo(10,"elfo",10);
@@ -114,6 +115,33 @@ class GrupoTest {
 
         List<Pesronagem> ResultadoObtido = grupo.ataqueOrdenado();
         List<Pesronagem> ResultadoEspeado = grupo1.retornaLista();
+
+        assertEquals(ResultadoEspeado, ResultadoObtido);
+
+    }
+
+    @Test
+    public void TestarAtaqueOrdenadoCriandoLista(){
+        Grupo grupo = new Grupo();
+        List<Pesronagem> listaDePersonagens = new LinkedList<>();
+        Elfo elfo = new Elfo(10,"elfo",10);
+        Orc orc = new Orc(10,"orc",true);
+        Humano humano = new Humano(10,"humano",true);
+        Humano humano1 = new Humano(10,"humano1",true);
+
+        grupo.adicionarPersonagemAoGrupo(humano1);
+        grupo.adicionarPersonagemAoGrupo(orc);
+        grupo.adicionarPersonagemAoGrupo(humano);
+        grupo.adicionarPersonagemAoGrupo(elfo);
+
+        listaDePersonagens.add(elfo);
+        listaDePersonagens.add(humano);
+        listaDePersonagens.add(humano1);
+        listaDePersonagens.add(orc);
+
+
+        List<Pesronagem> ResultadoObtido = grupo.ataqueOrdenado();
+        List<Pesronagem> ResultadoEspeado = listaDePersonagens;
 
         assertEquals(ResultadoEspeado, ResultadoObtido);
 
