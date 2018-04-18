@@ -23,12 +23,12 @@ public class Manutencao extends Produto implements ServicosRealizados {
 
     @Override
     public double calcularValorTotalServico(){
-        return super.getValorBase() + calcularLucroTotal() + calcularValorTotalImpostos();
+        return (super.getValorBase() + calcularLucroTotal() + calcularValorTotalImpostos());
     }
 
     @Override
     public double calcularLucroTotal() {
-        return calcularValorBaseServico() + calcularValorTotalImpostos() * super.getPercentualLucro();
+        return (calcularValorBaseServico() + calcularValorTotalImpostos()) * ((double) super.getPercentualLucro()/100);
     }
 
     public double calcularValorTotalImpostos() {

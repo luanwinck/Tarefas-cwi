@@ -1,7 +1,6 @@
 package servicos;
 
 import produtos.Pneu;
-import produtos.Produto;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -9,8 +8,8 @@ import java.util.List;
 public class TrocaDePneus implements ServicosRealizados {
 
     List<Pneu> pneusASeremTrocados;
-    private final double valorBaseDeMaoDeObraPorPneu = 20;
-    private final double valorDeLucro = 10;
+    private final double valorBaseDeMaoDeObraPorPneu = 30;
+    private final double valorDeLucro = 20;
     private int quantidadeDePneus;
     private double valorBaseDosPneus;
     private double valorTotalDosPneus;

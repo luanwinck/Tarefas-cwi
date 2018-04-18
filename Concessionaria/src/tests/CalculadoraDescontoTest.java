@@ -9,26 +9,6 @@ import utilitario.CalculadoraDesconto;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculadoraDescontoTest {
-    /*@Test
-    public void testarCalcularDescontoProduto(){
-        //Arrange
-        Produto produto = new Produto(1000, 100);
-        double valorTotalEsperado = 2034;
-        //Act
-        double valorTotalRetornado = CalculadoraDesconto.calcularValorTotalProdutoComDesconto(produto, 10);
-        //Assert
-        assertEquals(valorTotalEsperado, valorTotalRetornado);
-    }
-    @Test
-    public void testarCalcularDescontoProdutoComZeroDePercentual(){
-        //Arrange
-        Produto produto = new Produto(1000, 100);
-        double valorTotalEsperado = 2260;
-        //Act
-        double valorTotalRetornado = CalculadoraDesconto.calcularValorTotalProdutoComDesconto(produto, 0);
-        //Assert
-        assertEquals(valorTotalEsperado, valorTotalRetornado);
-    }
     @Test
     public void testarCalcularDescontoArtigoComZeroDePercentual(){
         //Arrange
@@ -68,5 +48,5 @@ public class CalculadoraDescontoTest {
         double valorTotalRetornado = CalculadoraDesconto.calcularValorTotalProdutoComDesconto(veiculo, 10);
         //Assert
         assertEquals(valorTotalEsperado, valorTotalRetornado);
-    }*/
+    }
 }

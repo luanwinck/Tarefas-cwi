@@ -22,9 +22,9 @@ public class Revisao implements ServicosRealizados {
         return valorBase + valorDaRevisao;
     }
 
-    @Override
+
     public double calcularLucroTotal() {
-        return calcularValorBaseServico() + calcularValorTotalImpostos() * ((double) percentualLucro / 100);
+        return (calcularValorBaseServico() + calcularValorTotalImpostos()) * ((double) percentualLucro / 100);
     }
 
     public double calcularValorTotalImpostos() {
