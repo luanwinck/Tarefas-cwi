@@ -6,6 +6,7 @@ import Erros.ItemINaoEquipadoException;
 import Itens.Baletao;
 import Itens.CascoVerde;
 import Itens.Cogumelo;
+import Itens.CogumeloRoxo;
 import Pistas.DonutPlains;
 import Pistas.LugarNoPodium;
 import Pistas.Pista;
@@ -14,71 +15,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PistaTest {
-    @Test
-    public void testesPista(){
-        DonutPlains donutPlains = new DonutPlains();
-        Luigi luigi = new Luigi();
-        Luigi luigi2 = new Luigi();
-        Luigi luigi3 = new Luigi();
 
-        donutPlains.adicionarCorredor(luigi);
-        donutPlains.adicionarCorredor(luigi2);
-        donutPlains.adicionarCorredor(luigi3);
-
-        for (int i = 0; i < 7; i++) {
-            luigi.andar();
-        }
-
-        for (int i = 0; i < 15; i++) {
-            luigi3.andar();
-        }
-
-        for (int i = 0; i < 15; i++) {
-            luigi2.andar();
-        }
-
-
-        assertEquals(luigi,donutPlains.getPodium().getCorredorNaPosicao(LugarNoPodium.PRIMEIRO_LUGAR));
-        assertEquals(luigi3,donutPlains.getPodium().getCorredorNaPosicao(LugarNoPodium.SEGUNDO_LUGAR));
-        assertEquals(luigi2,donutPlains.getPodium().getCorredorNaPosicao(LugarNoPodium.TERCEIRO_LUGAR));
-    }
-
-    @Test
-    public void testesAndarPeach(){
-        DonutPlains donutPlains = new DonutPlains();
-        Peach peach = new Peach();
-
-        donutPlains.adicionarCorredor(peach);
-
-        peach.andar();
-        assertEquals(3,peach.getCasaQueEstouNaPista());
-
-        peach.andar();
-        assertEquals(6,peach.getCasaQueEstouNaPista());
-
-        peach.andar();
-        assertEquals(11,peach.getCasaQueEstouNaPista());
-    }
-
-    @Test
-    public void testesAndarBowser(){
-        DonutPlains donutPlains = new DonutPlains();
-        Bowser bowser = new Bowser();
-
-        donutPlains.adicionarCorredor(bowser);
-
-        bowser.andar();
-        assertEquals(1,bowser.getCasaQueEstouNaPista());
-
-        bowser.andar();
-        assertEquals(2,bowser.getCasaQueEstouNaPista());
-
-        bowser.andar();
-        assertEquals(7,bowser.getCasaQueEstouNaPista());
-
-        bowser.andar();
-        assertEquals(12,bowser.getCasaQueEstouNaPista());
-    }
 
     @Test
     public void testarUsoDoCogumelo() throws ItemINaoEquipadoException {
@@ -138,7 +75,7 @@ class PistaTest {
     }
 
     @Test
-    public void testarUsarBaletaoComoItemDeBonusBonus() throws ItemINaoEquipadoException {
+    public void testarUsarBaletaoComoItemDeBonus() throws ItemINaoEquipadoException {
         DonutPlains donutPlains = new DonutPlains();
 
         Mario mario = new Mario();
@@ -155,5 +92,66 @@ class PistaTest {
 
         assertEquals(11,mario.getCasaQueEstouNaPista());
 
+    }
+
+    @Test
+    public void testarUsarBaletaoComoItemDeAtaque() throws ItemINaoEquipadoException, AlvoInvalidoException {
+        DonutPlains donutPlains = new DonutPlains();
+
+        Mario mario = new Mario();
+        Luigi luigi = new Luigi();
+        Baletao baletao = new Baletao();
+
+        donutPlains.adicionarCorredor(mario);
+        donutPlains.adicionarCorredor(luigi);
+
+        assertEquals(donutPlains,luigi.getPistaQueEstouCorrendo());
+
+        mario.equiparItem(baletao);
+        mario.usarItem(baletao,luigi);
+
+        assertEquals(null, luigi.getPistaQueEstouCorrendo());
+
+    }
+
+    @Test
+    public void testarUsarBaletaoComoItemDeAtaqueCorredorSaiDaPista() throws ItemINaoEquipadoException, AlvoInvalidoException {
+        DonutPlains donutPlains = new DonutPlains();
+
+        Mario mario = new Mario();
+        Luigi luigi = new Luigi();
+        Baletao baletao = new Baletao();
+
+        donutPlains.adicionarCorredor(mario);
+        donutPlains.adicionarCorredor(luigi);
+
+        assertEquals(donutPlains,luigi.getPistaQueEstouCorrendo());
+
+        mario.equiparItem(baletao);
+        mario.usarItem(baletao,luigi);
+
+        assertEquals(false, donutPlains.getCorredorEstaNaPista(luigi));
+    }
+
+    @Test
+    public void testarUsarItemDeRecuperacao() throws ItemINaoEquipadoException {
+        DonutPlains donutPlains = new DonutPlains();
+
+        Mario mario = new Mario();
+        CogumeloRoxo cogumeloRoxo = new CogumeloRoxo();
+
+        donutPlains.adicionarCorredor(mario);
+
+        assertEquals(7,mario.getVida());
+
+        mario.equiparItem(cogumeloRoxo);
+        mario.usarItem(cogumeloRoxo);
+
+        assertEquals(9, mario.getVida());
+
+        mario.equiparItem(cogumeloRoxo);
+        mario.usarItem(cogumeloRoxo);
+
+        assertEquals(11, mario.getVida());
     }
 }

@@ -28,9 +28,7 @@ public abstract class Corredor {
 
     public void andar(){
         casaQueEstouNaPista += casasQueAndaPorVez;
-        if (casaQueEstouNaPista > pistaQueEstouCorrendo.getQuantidadesDeCasas()-1){
-            pistaQueEstouCorrendo.getPodium().subirNoPodium(this);
-        }
+        this.verificarSeChegouAoFimDaCorrida();
     }
 
     public int getVida() {
@@ -49,15 +47,15 @@ public abstract class Corredor {
         return pistaQueEstouCorrendo;
     }
 
-    public void setVida(int vida) {
+    protected void setVida(int vida) {
         this.vida = vida;
     }
 
-    public void setCasasQueAndaPorVez(int casasQueAndaPorVez) {
+    protected void setCasasQueAndaPorVez(int casasQueAndaPorVez) {
         this.casasQueAndaPorVez = casasQueAndaPorVez;
     }
 
-    public void setCasaQueEstouNaPista(int casaQueEstouNaPista) {
+    protected void setCasaQueEstouNaPista(int casaQueEstouNaPista) {
         this.casaQueEstouNaPista = casaQueEstouNaPista;
     }
 
@@ -68,6 +66,7 @@ public abstract class Corredor {
     public void usarItem(ItemDeBonus itemDeBonus) throws ItemINaoEquipadoException {
         if (verificarSeItemEstaEquipado(itemDeBonus)){
             this.setCasaQueEstouNaPista(this.getCasaQueEstouNaPista() + itemDeBonus.casasExtras());
+            this.verificarSeChegouAoFimDaCorrida();
             return;
         }
 
@@ -98,14 +97,21 @@ public abstract class Corredor {
         throw new ItemINaoEquipadoException();
     }
 
-    public boolean verificarSeItemEstaEquipado(Item item){
+    protected boolean verificarSeItemEstaEquipado(Item item){
         return item == itemEquipado ? true : false;
     }
 
-    public void removerDaPista(){
+    protected void removerDaPista(){
         pistaQueEstouCorrendo.removerCorredor(this);
+
         pistaQueEstouCorrendo = null;
 
+    }
+
+    protected void verificarSeChegouAoFimDaCorrida(){
+        if (casaQueEstouNaPista > pistaQueEstouCorrendo.getQuantidadesDeCasas()-1){
+            pistaQueEstouCorrendo.getPodium().subirNoPodium(this);
+        }
     }
 
 

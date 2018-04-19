@@ -12,25 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pista.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pistas/Pista.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Bowser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Corredores/Bowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="204">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -38,41 +24,66 @@
       <file leaf-file-name="Corredor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Corredores/Corredor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#925#926#0" expanded="true" />
                 <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
                 <element signature="e#1345#1346#0" expanded="true" />
                 <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#2729#2730#0" expanded="true" />
-                <element signature="e#2787#2788#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlvoInvalidoException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erros/AlvoInvalidoException.java">
+      <file leaf-file-name="CorredorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Testes/CorredorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            <state relative-caret-position="1513">
+              <caret line="89" column="56" lean-forward="true" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PistaTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Itens/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testes/ItemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PistaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Testes/PistaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PodiumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Testes/PodiumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +100,8 @@
       <file leaf-file-name="Mario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Corredores/Mario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
+            <state relative-caret-position="221">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -98,36 +109,8 @@
       <file leaf-file-name="Peach.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Corredores/Peach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CogumeloRoxo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Itens/CogumeloRoxo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Baletao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Itens/Baletao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -137,9 +120,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -150,8 +133,6 @@
         <option value="$PROJECT_DIR$/src/Pistas/DonutPlains.java" />
         <option value="$PROJECT_DIR$/src/Pistas/PistaTest.java" />
         <option value="$PROJECT_DIR$/src/Corredores/Luigi.java" />
-        <option value="$PROJECT_DIR$/src/Pistas/Podium.java" />
-        <option value="$PROJECT_DIR$/src/Corredores/Bowser.java" />
         <option value="$PROJECT_DIR$/src/Itens/ItemDeAtaque.java" />
         <option value="$PROJECT_DIR$/src/Itens/ItemDeUso.java" />
         <option value="$PROJECT_DIR$/src/Itens/ItemDeBonus.java" />
@@ -163,17 +144,25 @@
         <option value="$PROJECT_DIR$/src/Erros/ItemINaoEquipadoException.java" />
         <option value="$PROJECT_DIR$/src/Erros/AlvoInvalidoException.java" />
         <option value="$PROJECT_DIR$/src/Pistas/Pista.java" />
+        <option value="$PROJECT_DIR$/src/Pistas/PodiumTest.java" />
         <option value="$PROJECT_DIR$/src/Corredores/Corredor.java" />
-        <option value="$PROJECT_DIR$/src/Corredores/Peach.java" />
+        <option value="$PROJECT_DIR$/src/Testes/PodiumTest.java" />
+        <option value="$PROJECT_DIR$/src/Pistas/Podium.java" />
         <option value="$PROJECT_DIR$/src/Corredores/Mario.java" />
+        <option value="$PROJECT_DIR$/src/Corredores/Peach.java" />
+        <option value="$PROJECT_DIR$/src/Corredores/Bowser.java" />
         <option value="$PROJECT_DIR$/src/Testes/PistaTest.java" />
+        <option value="$PROJECT_DIR$/src/Corredores/CorredorTest.java" />
+        <option value="$PROJECT_DIR$/src/Testes/CorredorTest.java" />
+        <option value="$PROJECT_DIR$/src/Itens/ItemTest.java" />
+        <option value="$PROJECT_DIR$/src/Testes/ItemTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="525" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -192,42 +181,12 @@
               <item name="MarioKart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MarioKart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MarioKart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Corredores" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MarioKart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MarioKart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Erros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MarioKart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MarioKart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Itens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MarioKart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MarioKart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pistas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MarioKart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MarioKart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Testes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -238,10 +197,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Aulas/luan-winck/ModuloOO/Aula6/Medieval" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Itens" />
+      <recent name="Corredores" />
       <recent name="Pistas" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -260,9 +221,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PistaTest.testarUsarBaletaoComoItemDeBonusBonus">
+  <component name="RunManager" selected="JUnit.CorredorTest.testesAndarLuigi">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CorredorTest.testesAndarLuigi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Testes" />
+      <option name="MAIN_CLASS_NAME" value="Testes.CorredorTest" />
+      <option name="METHOD_NAME" value="testesAndarLuigi" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CorredorTest.testesAndarMario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Testes" />
+      <option name="MAIN_CLASS_NAME" value="Testes.CorredorTest" />
+      <option name="METHOD_NAME" value="testesAndarMario" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CorredorTest.testesAndarPeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Testes" />
+      <option name="MAIN_CLASS_NAME" value="Testes.CorredorTest" />
+      <option name="METHOD_NAME" value="testesAndarPeach" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="PistaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarioKart" />
@@ -287,7 +317,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PistaTest.testarCorredorSaiDaCorridaAposZerarVida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarioKart" />
       <extension name="coverage">
         <pattern>
@@ -298,77 +328,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.PistaTest" />
-      <option name="METHOD_NAME" value="testarCorredorSaiDaCorridaAposZerarVida" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PistaTest.testarUsarBaletaoComoItemDeBonusBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarioKart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.PistaTest" />
-      <option name="METHOD_NAME" value="testarUsarBaletaoComoItemDeBonusBonus" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PistaTest.testarUsarItemDeAtaqueEmSiMesmoGeraErro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarioKart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.PistaTest" />
-      <option name="METHOD_NAME" value="testarUsarItemDeAtaqueEmSiMesmoGeraErro" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PistaTest.testarUsarItemNaoEquipadoGeraErro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarioKart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.PistaTest" />
-      <option name="METHOD_NAME" value="testarUsarItemNaoEquipadoGeraErro" />
+      <option name="MAIN_CLASS_NAME" value="Testes.PodiumTest" />
+      <option name="METHOD_NAME" value="testarCorredorChegandoAoPodiumUsandoItem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -419,18 +380,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PistaTest" />
-      <item itemvalue="JUnit.PistaTest.testarCorredorSaiDaCorridaAposZerarVida" />
-      <item itemvalue="JUnit.PistaTest.testarUsarItemNaoEquipadoGeraErro" />
-      <item itemvalue="JUnit.PistaTest.testarUsarItemDeAtaqueEmSiMesmoGeraErro" />
-      <item itemvalue="JUnit.PistaTest.testarUsarBaletaoComoItemDeBonusBonus" />
+      <item itemvalue="JUnit.PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" />
+      <item itemvalue="JUnit.CorredorTest.testesAndarPeach" />
+      <item itemvalue="JUnit.CorredorTest.testesAndarMario" />
+      <item itemvalue="JUnit.CorredorTest.testesAndarLuigi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PistaTest.testarUsarBaletaoComoItemDeBonusBonus" />
-        <item itemvalue="JUnit.PistaTest.testarUsarItemDeAtaqueEmSiMesmoGeraErro" />
-        <item itemvalue="JUnit.PistaTest.testarUsarItemNaoEquipadoGeraErro" />
+        <item itemvalue="JUnit.CorredorTest.testesAndarLuigi" />
+        <item itemvalue="JUnit.CorredorTest.testesAndarMario" />
+        <item itemvalue="JUnit.CorredorTest.testesAndarPeach" />
         <item itemvalue="JUnit.PistaTest" />
-        <item itemvalue="JUnit.PistaTest.testarCorredorSaiDaCorridaAposZerarVida" />
+        <item itemvalue="JUnit.PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" />
       </list>
     </recent_temporary>
   </component>
@@ -448,40 +409,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PistaTest - 2018.04.19 at 00h 34m 39s.xml">
+    <history-entry file="PodiumTest_testarCorredorChegandoAoPodiumUsandoItem - 2018.04.19 at 09h 46m 16s.xml">
+      <configuration name="PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PodiumTest_testarCorredorChegandoAoPodiumUsandoItem - 2018.04.19 at 09h 46m 36s.xml">
+      <configuration name="PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PodiumTest_testarCorredorChegandoAoPodiumUsandoItem - 2018.04.19 at 09h 47m 22s.xml">
+      <configuration name="PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PodiumTest_testarCorredorChegandoAoPodiumUsandoItem - 2018.04.19 at 09h 48m 06s.xml">
+      <configuration name="PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PodiumTest_testarCorredorChegandoAoPodiumUsandoItem - 2018.04.19 at 09h 48m 26s.xml">
+      <configuration name="PodiumTest.testarCorredorChegandoAoPodiumUsandoItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PistaTest - 2018.04.19 at 10h 33m 09s.xml">
       <configuration name="PistaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PistaTest_testarUsarItemNaoEquipadoGeraErro - 2018.04.19 at 00h 37m 10s.xml">
-      <configuration name="PistaTest.testarUsarItemNaoEquipadoGeraErro" configurationId="JUnit" />
+    <history-entry file="CorredorTest_testesAndarPeach - 2018.04.19 at 10h 34m 43s.xml">
+      <configuration name="CorredorTest.testesAndarPeach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PistaTest_testarUsarItemDeAtaqueEmSiMesmoGeraErro - 2018.04.19 at 00h 39m 41s.xml">
-      <configuration name="PistaTest.testarUsarItemDeAtaqueEmSiMesmoGeraErro" configurationId="JUnit" />
+    <history-entry file="CorredorTest_testesAndarPeach - 2018.04.19 at 10h 34m 56s.xml">
+      <configuration name="CorredorTest.testesAndarPeach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PistaTest_testarUsarItemDeAtaqueEmSiMesmoGeraErro - 2018.04.19 at 00h 40m 12s.xml">
-      <configuration name="PistaTest.testarUsarItemDeAtaqueEmSiMesmoGeraErro" configurationId="JUnit" />
+    <history-entry file="CorredorTest_testesAndarMario - 2018.04.19 at 10h 36m 50s.xml">
+      <configuration name="CorredorTest.testesAndarMario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PistaTest_testarUsarBaletaoComoItemDeBonusBonus - 2018.04.19 at 00h 44m 09s.xml">
-      <configuration name="PistaTest.testarUsarBaletaoComoItemDeBonusBonus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PistaTest_testarUsarBaletaoComoItemDeBonusBonus - 2018.04.19 at 00h 44m 36s.xml">
-      <configuration name="PistaTest.testarUsarBaletaoComoItemDeBonusBonus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PistaTest_testarUsarBaletaoComoItemDeBonusBonus - 2018.04.19 at 00h 44m 57s.xml">
-      <configuration name="PistaTest.testarUsarBaletaoComoItemDeBonusBonus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PistaTest_testarUsarBaletaoComoItemDeBonusBonus - 2018.04.19 at 00h 46m 18s.xml">
-      <configuration name="PistaTest.testarUsarBaletaoComoItemDeBonusBonus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PistaTest_testarUsarBaletaoComoItemDeBonusBonus - 2018.04.19 at 00h 56m 16s.xml">
-      <configuration name="PistaTest.testarUsarBaletaoComoItemDeBonusBonus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PistaTest_testarUsarBaletaoComoItemDeBonusBonus - 2018.04.19 at 00h 57m 53s.xml">
-      <configuration name="PistaTest.testarUsarBaletaoComoItemDeBonusBonus" configurationId="JUnit" />
+    <history-entry file="CorredorTest_testesAndarLuigi - 2018.04.19 at 10h 38m 27s.xml">
+      <configuration name="CorredorTest.testesAndarLuigi" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -491,18 +451,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22693998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -516,10 +476,98 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Pistas/Pista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Bowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Corredor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erros/AlvoInvalidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Luigi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Mario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Peach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Itens/CogumeloRoxo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Itens/Baletao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testes/PistaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pistas/Pista.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -587,16 +635,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
             <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
             <element signature="e#1345#1346#0" expanded="true" />
             <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2787#2788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,16 +680,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
             <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
             <element signature="e#1345#1346#0" expanded="true" />
             <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2787#2788#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -665,27 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="600" selection-start-line="600" selection-end-line="600" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pistas/DonutPlains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pistas/Podium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Itens/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -732,33 +743,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Itens/CogumeloRoxo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="68">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="e#119#120#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Itens/Baletao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -779,20 +773,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pistas/Pista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="272">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Corredores/Bowser.java">
+    <entry file="file://$PROJECT_DIR$/src/Pistas/DonutPlains.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="51">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Itens/Baletao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pistas/Podium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Mario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Peach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -803,46 +827,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Corredores/Peach.java">
+    <entry file="file://$PROJECT_DIR$/src/Corredores/Bowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Corredores/Mario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
+        <state relative-caret-position="204">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Corredores/Corredor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
             <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
             <element signature="e#1345#1346#0" expanded="true" />
             <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2787#2788#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Itens/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testes/PistaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testes/PodiumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testes/ItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testes/CorredorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="56" lean-forward="true" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -33,5 +33,14 @@ public abstract class Pista {
         corredoresNaPista.remove(corredor);
     }
 
+    public boolean getCorredorEstaNaPista(Corredor corredor){
+        for (Corredor corredorNaPista : corredoresNaPista){
+            if (corredor == corredorNaPista){
+                return true;
+            }
+        }
+        return false;
+    }
+
 
 }
